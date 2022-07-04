@@ -1,5 +1,5 @@
 import React from 'react';
-import Lottie from 'react-lottie';
+//import Lottie from 'react-lottie';
 import * as animationData from '../../assets/images/heroWorking.json'
 import logo from'../../assets/images/logo.png';
 export default function HeroSection() {
@@ -14,9 +14,9 @@ export default function HeroSection() {
             <h1>Hero</h1>
         </div>
         <div className='columns-3'>
-        <Lottie options={defaultOptions}
+        {/* <Lottie options={defaultOptions}
                   height={400}
-                  width={400}/> 
+                  width={400}/>  */}
         </div>
        
     </div>
